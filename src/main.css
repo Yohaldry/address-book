@@ -1,0 +1,85 @@
+.About-Principal{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 50px;
+    
+   
+}
+
+.About-Formulario{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+    border-right: 4px solid #000000;
+}
+
+
+
+
+.About-Formulario input{
+
+    width: 50%;
+    height: 35px;
+    border-radius: 6px;
+    margin-left: 150px;
+    border-right: none;
+    border-top: none;
+    
+}
+.About-Formulario h1{
+
+    width: 50%;
+    font-size: 25px;
+    margin-left: 150px;
+    
+}
+
+
+
+
+.editar{
+
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.808);
+    margin-right: 5px;
+    border: none;
+}
+
+.eliminar{
+
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.808);
+    border: none;
+}
+
+.guardar{
+
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.808);
+   margin-left: 220px;
+   border: none;
+}
+.guardar:hover{
+
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.editar:hover{
+
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.eliminar:hover{
+
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
